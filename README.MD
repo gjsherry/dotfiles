@@ -9,11 +9,13 @@ Collected approach from various sources. Thanks to Nelstrom, Jack Franklin and T
 Files are symlinked into proper location, and have the `.` added. For example:
 
 ```
+
 ~/dotfiles/vim/vim => ~/.vim
 ~/dotfiles/vim/vimrc => ~/.vimrc
 ~/dotfiles/zsh/zshrc => ~/.zshrc
 ~/dotfiles/git/gitignore_global => ~/.gitignore_global
 ...and so on
+
 ```
 # Installing
 <!---
