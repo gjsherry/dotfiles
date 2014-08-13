@@ -26,10 +26,12 @@ Files are symlinked into proper location, and have the `.` added. For example:
 - Install Node from [NodeJS.org](http://nodejs.org/). (The brew install causes problems with its different paths for node module installs, and it's easier to suck it up and install this way).
 - `make`
 - That will set up everything, but you'll need to install the Vim plugins. Load up vim (you'll get some errors the first time, ignore them) and run `:BundleInstall`. Once that's done, restart Vim and you're all set to code.
---->
+
+-->
 
 # Adding new vim plugin
 - plugins are managed in `vim/vimrc` with [Vundle](https://github.com/gmarik/vundle). Add a plugin there, restart Vim and run `:BundleInstall`.
+
 <!---
 # homebrew
 - Add line to `Brewfile`.
