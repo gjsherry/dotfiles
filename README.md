@@ -2,8 +2,9 @@ Grahams Dotfiles
 
 # BELOW INVALID - STILL TESTING - RECOMMEND YOU DON'T CLONE :o)
 
-Dotfiles for Vim and ZSH (and script homebrew environment setup).
-
+Dotfiles for Vim 
+<!---and ZSH (and script homebrew environment setup).
+-->
 Collected approach from various sources. Thanks to Nelstrom, Jack Franklin and Thoughtbot.
 
 Files are symlinked into proper location, and have the `.` added. For example:
@@ -13,9 +14,12 @@ Files are symlinked into proper location, and have the `.` added. For example:
 ln -s ~/dotfiles/vim/vim ~/.vim
 ln -s ~/dotfiles/vim/vimrc ~/.vimrc
 
+<!---
 ~/dotfiles/zsh/zshrc => ~/.zshrc
 ~/dotfiles/git/gitignore_global => ~/.gitignore_global
 ...and so on
+
+-->
 
 ```
 # Installing
