@@ -35,8 +35,19 @@ set statusline+=\ %{fugitive#statusline()}
 set statusline+=%= " this line bumps the line number to RHS
 set statusline+=\ [%l\/%L] "line number and column number
 
+" remember more commands and search history
+set history=10000
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" spaces > tabs.
+" there, I said it.
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set autoindent
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""e
 " setup from other sources
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " store temporary files in a central spot
