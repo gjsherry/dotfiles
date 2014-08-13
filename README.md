@@ -30,7 +30,7 @@ Files are symlinked into proper location, and have the `.` added. For example:
 
 # Adding new vim plugin
 - plugins are managed in `vim/vimrc` with [Vundle](https://github.com/gmarik/vundle). Add a plugin there, restart Vim and run `:BundleInstall`.
-<!--
+<!---
 # homebrew
 - Add line to `Brewfile`.
 - Run `make brew`
