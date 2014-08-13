@@ -18,11 +18,15 @@ Plugin 'tpope/vim-bundler'
 call vundle#end()
 filetype plugin indent on
 "
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Personal Config
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:hardtime_default_on = 1
+" nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
+
+" Show line numbers
+set nu
 
 " status bar
 set statusline=%F%m%r%h%w\  "fullpath and status modified sign
@@ -31,15 +35,17 @@ set statusline+=\ %{fugitive#statusline()}
 set statusline+=%= " this line bumps the line number to RHS
 set statusline+=\ [%l\/%L] "line number and column number
 
-" Show line numbers
-set nu
 
-" nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
-
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" setup from other sources
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" store temporary files in a central spot
+set backup
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VIMCASTS
-"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
