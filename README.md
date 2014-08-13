@@ -1,6 +1,6 @@
 Grahams Dotfiles
 
-# THE BELOW IS INVALID - THIS IS A TEST FILE - PLEASE DO NOT CLONE
+# BELOW INVALID - STILL TESTING - RECOMMEND YOU DON'T CLONE :o)
 
 Dotfiles for Vim and ZSH (and script homebrew environment setup).
 
